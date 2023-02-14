@@ -1,0 +1,41 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+\usepackage{textcmds}
+\usepackage[margin=2cm]{geometry}
+\usepackage[left]{lineno}
+\usepackage{lipsum}
+
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9.in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\headheight}{0in}
+%Info. cabeçalho.
+\newcommand{\disciplina}[1]{\noindent\large \textsc{\textbf{#1\\}}}
+\newcommand{\docente}[1]{\noindent\textsc{\normalsize\textbf{#1 \\}}}
+\newcommand{\nome}[1]{\noindent\normalsize\textbf{Estudante:} #1\\}
+\newcommand{\matricula}[1]{\noindent\normalsize\textbf{Matrícula:} #1\\}
+\newcommand{\curso}[1]{\noindent\normalsize\textbf{Curso:} #1\\}
+%Info. atividade.
+\newcommand{\atividade}[1]{
+	\vspace{5mm}
+{\textsc{\textbf{Atividade:}}} {#1}
+\ \\
+}
+\newcommand{\dataentrega}[1]{\indent\normalsize\textbf{Data de entrega:} #1}
+
+%Config. cabeçalho.
+\newcommand{\logo}{
+\begin{minipage}{3cm}
+	\begin{flushright}
+\includegraphics[scale=.10]{img/logo-ifpe.png}
+	\end{flushright}
+\end{minipage}	
+}
+
+
+
+
+
+
